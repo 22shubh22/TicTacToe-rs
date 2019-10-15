@@ -1,0 +1,9 @@
+struct game -> Board , current turn
+
+Board - vec<vec < String >
+Turn - enum ( Bot, Player
+
+function left
+    - print_board
+    - get_player_move
+    - get_bot_move
